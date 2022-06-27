@@ -1,0 +1,29 @@
+.card {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+
+  width: 20rem;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 1rem;
+  padding: 1rem;
+  img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+  }
+  h1 {
+    color: red;
+    font-size: 2rem;
+  }
+  h3 {
+    color: green;
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}

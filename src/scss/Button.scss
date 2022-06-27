@@ -1,0 +1,26 @@
+@import "./variables";
+
+.btns {
+  margin-top: 1rem;
+
+  .btn-small {
+    height: 2rem;
+    width: 4rem;
+    margin-right: 0.6rem;
+    background-color: $Dark-teal;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .btn-large {
+    height: 2rem;
+    width: 6rem;
+    background-color: $bright-blue;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}
